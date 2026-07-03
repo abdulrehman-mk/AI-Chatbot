@@ -72,21 +72,3 @@ npm run dev
 ```
 
 Frontend runs at: `http://localhost:3000`
-
-## API Endpoint
-
-**POST** `/chat`
-
-Request body:
-```json
-{ "message": "Hello" }
-```
-
-Response body:
-```json
-{ "reply": "Hi there! How can I help you today?" }
-```
-
-
-## Demo Video
-[Click here to watch the demo](./demo-ai-chatbot.mp4)

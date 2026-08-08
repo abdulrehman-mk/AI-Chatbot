@@ -35,40 +35,5 @@ project-root/
     main.py
     requirements.txt
     .env
-  README.md
 ```
 
-## Setup & Run
-
-### 1. Backend
-
-```bash
-cd backend
-python -m venv venv
-venv\Scripts\activate        # Windows
-pip install -r requirements.txt
-copy .env.example .env       # Windows
-```
-
-Run the backend:
-
-```bash
-uvicorn main:app --reload
-```
-
-Backend runs at: `http://localhost:8000`
-
-### 2. Frontend
-
-```bash
-cd frontend
-npm install
-```
-
-Run the frontend:
-
-```bash
-npm run dev
-```
-
-Frontend runs at: `http://localhost:3000`
